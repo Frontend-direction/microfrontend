@@ -1,0 +1,16 @@
+<single-spa-router>
+  <nav class="topnav" style="height: 7vh;">
+    <application name="@volo/header"></application>
+  </nav>
+  <div class="main-content" style="height: 86vh;">
+    <route path="/settings">
+      <application name="@volo/settings"></application>
+    </route>
+    <route path="/clients">
+      <application name="@volo/clients"></application>
+    </route>
+  </div>
+  <footer style="height: 7vh;">
+    <application name="@volo/footer"></application>
+  </footer>
+</single-spa-router>

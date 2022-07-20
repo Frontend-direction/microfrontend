@@ -1,0 +1,30 @@
+.actions
+  display: flex
+  justify-content: space-evenly
+  padding: 0.5em
+
+.battle-area
+  align-items: flex-start
+  display: flex
+  justify-content: center
+
+.help
+  display: flex
+  justify-content: flex-end
+
+%result
+  font
+    size: 4em
+    weight: bold
+  text
+    align: center
+    shadow: 3px 3px grey
+  -webkit-text-stroke: 1px black
+
+.win
+  @extend %result
+  color: gold
+
+.lose
+  @extend %result
+  color: red
