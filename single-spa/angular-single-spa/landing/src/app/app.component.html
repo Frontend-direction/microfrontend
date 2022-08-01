@@ -1,0 +1,8 @@
+<div class="container">Get your best animal icon</div>
+
+<div class="grid">
+  <div *ngFor="let animal of animals" class="grid-item" (click)="openInfo(animal)">
+    <div>{{ animal.name }}</div>
+    <img [src]="animal.img" [alt]="animal.name" class="grid-img">
+  </div>
+</div>

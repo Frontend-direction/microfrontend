@@ -1,0 +1,16 @@
+<single-spa-router>
+  <main>
+    <nav>
+      <application name="@volo/header"></application>
+    </nav>
+    <route default>
+      <application name="@volo/landing"></application>
+    </route>
+    <route path="/icons">
+      <application name="@volo/info"></application>
+    </route>
+    <route path="profile">
+      <application name="@volo/profile"></application>
+    </route>
+  </main>
+</single-spa-router>
